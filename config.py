@@ -1,4 +1,4 @@
-import re
+kimport re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -104,13 +104,13 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
 
 if SUPPORT_CHANNEL:
-    if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
+    if not re.match("(?:http|https)://", https://t.me/CHOCO_MUSIC_P:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
 
 if SUPPORT_CHAT:
-    if not re.match("(?:http|https)://", SUPPORT_CHAT):
+    if not re.match("(?:http|https)://", https://t.me/+ny5_c-2X1QQ5MmE0:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
 )
